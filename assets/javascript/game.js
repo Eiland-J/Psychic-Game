@@ -9,3 +9,11 @@ let choices = document.getElementById("choices")
 // array of the alphabet 27 elements
 let alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p",
 "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+//Holds user inputs in an array
+var yourChoices = [];
+
+//variables for guesses, wins, losses
+let guessesNum = 10;
+let winsNum = 0;
+let lossNum = 0;
